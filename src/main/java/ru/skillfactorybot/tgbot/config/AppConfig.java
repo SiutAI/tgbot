@@ -1,15 +1,15 @@
-package ru.skillfactorydemo.tgbot.config;
+package java.ru.skillfactorydemo.tgbot.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.ws.soap.saaj.SaajSoapMessageFactory;
-import ru.skillfactorydemo.tgbot.dto.GetCursOnDateXml;
-import ru.skillfactorydemo.tgbot.dto.GetCursOnDateXmlResponse;
-import ru.skillfactorydemo.tgbot.dto.GetCursOnDateXmlResult;
-import ru.skillfactorydemo.tgbot.dto.ValuteCursOnDate;
-import ru.skillfactorydemo.tgbot.service.CentralRussianBankService;
+import java.ru.skillfactorybot.tgbot.dto.GetCursOnDateXml;
+import java.ru.skillfactorybot.tgbot.dto.GetCursOnDateXmlResponse;
+import java.ru.skillfactorybot.tgbot.dto.GetCursOnDateXmlResult;
+import java.ru.skillfactorybot.tgbot.dto.ValuteCursOnDate;
+import java.ru.skillfactorybot.tgbot.service.CentralRussianBankService;
 
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.SOAPConstants;
